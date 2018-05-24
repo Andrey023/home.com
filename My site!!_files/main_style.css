@@ -1,0 +1,35 @@
+.zagl{
+	font-size: 27px;
+	background: #eeeeee;
+	font-weight: bold;
+	height: 30px;
+	text-align: center;
+    display: block;
+    width: 30%;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.logo_main{
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-top: 80px;
+}
+body{
+	background: url(../fon.jpg);
+	background-size: cover;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.blocks_menu{
+	width: 80%;
+	margin: 0 auto;
+}

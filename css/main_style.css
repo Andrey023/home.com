@@ -1,0 +1,65 @@
+.zagl{
+	font-size: 27px;
+	background: #eeeeee;
+	font-weight: bold;
+	height: 30px;
+	text-align: center;
+    display: block;
+    width: 30%;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.zagl:hover{
+	box-shadow: 4px 5px 15px 0px #000000;
+}
+
+.logo_main{
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-top: 80px;
+}
+body{
+	background: url(../fon.jpg);
+	background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+.menu-main {
+  list-style: none;
+  padding: 0 30px;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+}
+.menu-main:before {left: 15px;}
+.menu-main:after {right: 15px;}
+.menu-main li {
+  display: inline-block;
+  padding: 5px 0;
+}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 5px;
+  padding: 6px 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 19px;
+  color: #000;
+  border-bottom: 1px solid transparent;
+  transition: .3s linear;
+}
+.menu-main a:hover {
+  border-radius: 3px;
+  background: #f3ece1;
+  color: #313131;
+  text-shadow: 0 1px 0 #fff;
+  border-color: #c6c6c6;
+}
+@media (max-width: 500px) {
+  .menu-main li {display: block;}
+}
