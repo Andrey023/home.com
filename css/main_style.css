@@ -63,3 +63,27 @@ body{
 @media (max-width: 500px) {
   .menu-main li {display: block;}
 }
+
+.contact-page{
+  background-color: #eeeeee;
+  border-radius: 3px;
+  width: 150px;
+  margin: 0 auto;
+  padding: 1px 71px;
+  opacity: 0.6;  
+}
+
+@keyframes foto {
+  0%{
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  25%{
+    transform: rotateY(-15deg) rotateZ(15deg);
+  }
+  50%{
+    transform: rotateY(-15deg) rotateZ(15deg);
+  }
+  100%{
+    transform: rotateY(-15deg) rotateZ(15deg);
+  }
+}

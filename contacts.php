@@ -6,6 +6,12 @@
 </head>
 <body>
 	<?php include('footer.php'); ?>
-	<p> <b>Как со мной связатся!</b></p>
+	<div class="contact-page">
+		<p>Name:</p>
+		<p>Second name:</p>
+		<p>tel:</p>
+		<p>email:</p>
+	</div>
+
 </body>
 </html>
