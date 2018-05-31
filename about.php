@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<?php 
-		include("footer.php");
-	?>
-	Обо мне!!!
-</body>
-</html>
+<?php 
+include("header.php");
+include("leftblock.php");
+?>
+<div class="content">
+	<button class="see_about">See about me!</button>
+	<div id="about">
+		
+	</div>
+</div>
+<?php
+include("footer.php");
+?>

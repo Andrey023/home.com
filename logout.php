@@ -1,0 +1,10 @@
+<?php 
+	include("header.php");
+	include("leftblock.php");
+?>
+<?php  
+	session_destroy();
+?>
+<?php
+	include("footer.php")
+ ?>
