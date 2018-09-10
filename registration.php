@@ -1,7 +1,6 @@
 <?php 
 include('header.php');
-include('leftblock.php'); 
-session_start();
+include('leftblock.php');
 ?>
 	<div class="content">
 	 <div class="registrtion">

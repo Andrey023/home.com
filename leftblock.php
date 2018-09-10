@@ -1,3 +1,3 @@
 ﻿<div class="leftblock">
-	<p>left block</p>
+Left block
 </div>

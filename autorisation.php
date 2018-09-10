@@ -13,8 +13,7 @@
 		$_SESSION['name'] = $user['name'];		
 		$_SESSION['surname'] = $user['surname'];
 		$_SESSION['status'] = 'login';
-		var_dump($_SESSION);
-		// header("Location: /")		
+		header("Location: /")		
 	?>
 </div>
 <?php include_once('footer.php'); ?> 
